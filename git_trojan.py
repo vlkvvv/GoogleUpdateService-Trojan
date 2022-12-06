@@ -21,6 +21,8 @@ elif __file__:
     actionDirectoryPath = os.path.dirname(__file__)
 
 actionFilePath = os.path.join(actionDirectoryPath, actionFileName)
+print(actionDirectoryPath)
+print(actionFilePath)
 
 computer_name = "" #leave all blank for current computer, current user
 computer_username = ""
